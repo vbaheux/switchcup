@@ -1,0 +1,36 @@
+<div class="container headline-inside catalogue-cup">
+    <div id="grid" class="row-fluid">
+        <!--
+        <div class="tri">
+            <div class="cat">Filtres</div>
+            <div class="filter-options">
+                <button class="btn btn-default" data-group="Larsen">Larsen</button>
+                <button class="btn btn-default" data-group="Imaginarium">Imaginarium</button>
+            </div>
+        </div>-->
+
+        <div id="ecocup-grid" class="row cup-row">
+            <div class=" col-sm-4 col-md-3 cup" ng-repeat="cup in cups">
+
+                <div class="thumbnail">
+                    <img ng-src="{{imgPath(cup.img)}}"/>
+                    <div class="caption">
+                        <h3>{{cup.nom}} {{cup.semestre}}</h3>
+                        <p>{{cup.description}}</p>
+                        <p>Tirée en {{cup.tirage}} exemplaires</p>
+                    </div>
+                    <div class = "row text-center push-to-bottom">
+                        <div class="col-lg-6">
+                            <button class="btn btn-danger" type="button">J'ai déjà !</button>
+                        </div>
+                        <div class="col-lg-6">
+                            <button class="btn btn-success" type="button">Je veux !</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

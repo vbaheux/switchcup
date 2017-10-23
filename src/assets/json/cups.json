@@ -1,0 +1,66 @@
+[
+  {
+    "nom":"Pic",
+    "semestre":"P13",
+    "description":"Première Ecocup du Pic printemps 2013.",
+    "tirage":400,
+    "img": "pic_p13"
+  },
+  {
+    "nom":"Pic Plage",
+    "semestre":"P13",
+    "description":"Seconde Ecocup du Pic printemps 2013.",
+    "tirage":400,
+    "img": "pic_plage"
+  },
+  {
+    "nom":"Larsen",
+    "semestre":"P13",
+    "description":"Ecocup de la perm Larsen.",
+    "tirage":400,
+    "img": "larsen"
+  },
+  {
+    "nom":"Pic",
+    "semestre":"A12",
+    "description":"Ecocup du Pic automne 2012.",
+    "tirage":400,
+    "img": "pic_a12"
+  },
+  {
+    "nom":"Pic",
+    "semestre":"A10",
+    "description":"Ecocup du Pic automne 2010.",
+    "tirage":400,
+    "img": "pic_a10"
+  },
+  {
+    "nom":"Pic",
+    "semestre":"A11",
+    "description":"Ecocup du Pic automne 2011.",
+    "tirage":400,
+    "img": "pic_a11"
+  },
+  {
+    "nom":"Pic",
+    "semestre":"P11",
+    "description":"Ecocup du Pic printemps 2011.",
+    "tirage":400,
+    "img": "pic_p11"
+  },
+  {
+    "nom":"Integ",
+    "semestre":"A11",
+    "description":"Ecocup de l'intég 2011.",
+    "tirage":400,
+    "img": "integ_2011"
+  },
+  {
+    "nom":"Integ",
+    "semestre":"A12",
+    "description":"Ecocup de l'intég 2012.",
+    "tirage":400,
+    "img": "integ_2012"
+  }
+
+]

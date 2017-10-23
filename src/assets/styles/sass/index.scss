@@ -1,0 +1,23 @@
+
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+$jumbotron-padding: 50px;
+
+html { height: 100%; }
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.jumbotron {
+  padding-top: $jumbotron-padding;
+  padding-bottom: $jumbotron-padding;
+}
+
+.jumbotron p {
+  &:not(.card-text) {
+    font-size: medium;
+  }
+}
